@@ -1,0 +1,76 @@
+body {
+    background-color: #FAFAFA;font-family: sans-serif;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.celular{
+    position: relative;
+}
+
+.celular-imagem {
+    width: 450px;
+}
+
+.imagem-exibicao {
+   position: absolute;
+   width: 238px; 
+   left: 153px; 
+   top: 26px;
+   transition: 1s ease-in-out;
+}
+
+
+
+.login-usuario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 402px;
+    border: 1px solid #d3d3d3;
+}
+
+.logo {
+    width: 175px;
+    margin: 50px 0 40px 0;
+}
+
+input {
+    width: 268px;
+    padding: 9px 0 7px 8px;
+    margin: 0 41px;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    margin-bottom: 6px;
+}
+
+.btn-entrar {
+    width: 268px;
+    margin: 12px 41px 53px 41px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #0095f6;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #00376b;
+}
+
+.entrar-facebook {
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #385185;
+}
